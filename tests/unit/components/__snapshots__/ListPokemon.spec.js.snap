@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ListPokemon Debe llamar a getPokemonsByTerm sin termino de busqueda 1`] = `
+<div class="bg-blue-300 mx-auto w-2/3 flex flex-col mt-5"><input type="text" class="bg-blue-100 border-2 border-blue-600 p-2" placeholder="Escribir nombre del Pokemon"><!-- <button @click="!orderChange"> Ordenar Alfabeticamente </button> -->
+  <div class="overflow-y-auto h-40 mt-5">
+    <item-stub poke="[object Object]"></item-stub>
+    <item-stub poke="[object Object]"></item-stub>
+    <item-stub poke="[object Object]"></item-stub>
+  </div>
+</div>
+`;
+
+exports[`Component: ListPokemon Se debe llamar a getPokemonsByTerm sin termino 1`] = `
+<div class="bg-blue-300 mx-auto w-2/3 flex flex-col mt-5"><input type="text" class="bg-blue-100 border-2 border-blue-600 p-2" placeholder="Escribir nombre del Pokemon"><!-- <button @click="!orderChange"> Ordenar Alfabeticamente </button> -->
+  <div class="overflow-y-auto h-40 mt-5">
+    <item-stub poke="[object Object]"></item-stub>
+    <item-stub poke="[object Object]"></item-stub>
+    <item-stub poke="[object Object]"></item-stub>
+  </div>
+</div>
+`;
