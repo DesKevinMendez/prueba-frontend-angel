@@ -1,9 +1,9 @@
 <template>
 
-    <div :key="order" class="bg-blue-300 mx-auto w-2/3 flex flex-col mt-5">
+    <div :key="order" class="bg-blue-100 mx-auto w-2/3 flex flex-col mt-5">
 
         <input type="text" 
-        class="bg-blue-100 border-2 border-blue-600 p-2" 
+        class="bg-white border-2 border-blue-500 p-2" 
         placeholder="Escribir nombre del Pokemon"
         v-model="term"
         >
